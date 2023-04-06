@@ -1,36 +1,52 @@
-### CTF 2.Senaryo
+# Workshop Docker
 
-1. Projeyi ilgili adresten çekin.
-```
-https://github.com/merve-naz/BB-Senaryo-Dockerfile-Go.git 
-```
-2. Projeyi Senaryo klasörümüze çektikten sonra listeleyerek içindekileri görebilirsiniz.
+## 1) Ön Hazırlık
+Bu adımımızda sizden beklentimiz ``/home/ctf-docker-1`` adında bir klasör oluşturmanızdır. 
 
-3. Burada " BB-Senaryo-Dockerfile-Go" adında bir klasör olacaktır. Bu github'dan cektigimiz projenin adıdır. Şimdi bu klasöründe içine gidiniz.
+## 2) Örnek Proje Kopyalama
+Bu adımda sizden beklentimiz daha öncesinde oluşturduğunuz ``/home/ctf-docker-1`` klasörünün altında aşağıda linki verilen projeyi kopyalamanızdır. Bunun için "GIT" komutunu kullanabilirsiniz. 
+``https://github.com/merve-naz/BB-Senaryo-Dockerfile-Go.git``
 
-Bu çıktıyı görüyorsanız,devam edebilirsiniz.
+## 3) Dosya Kontrolleri
+İkinci adımda  ``/home/ctf-docker-1` dizini altında projemizin kopyalandığını kontrol etmeniz önerilmektedir. Tüm işlemleri doğru yaptıysanız bu dizin altında ``BB-Senaryo-Dockerfile-Go`` isminde bir dizin oluşması gerekecektir. 
+
+3. Burada " BB-Senaryo-Dockerfile-Go" adında bir klasör  olacaktır. Bu github'dan cektigimiz projenin adıdır. Şimdi bu klasöründe içine girelim.
+
+İlgili dizinde bu dosyaların varlığından emin olun. Dosyalar yoksa bir yerde yanlış giden birşeyler olmuş demektir.
+ 
 - Dockerfile                  go.mod       main.go 
 - docker-compose.yaml         go.sum       public
 
-4. Dockerfile dosyasındaki talimatları ve yönergeleri kullanarak bir Docker imajı oluşturmamız gerekiyor fakat burada verilen Dockerfile dosyasında eksik kısımlar var. İlk olarak bunu düzeltmelisiniz.
 
-5- Bunun için Dockerfile dosyasını metin editöründe açalım.
+5. Bu aşamada sizden bir DockerFile'ı gözden geçirmeniz beklenmektedir.
+DockerFile dosyasındaki standartları takip etmeniz gerekiyor. Eksik, hatalı kısımları düzenlemelisiniz.
 
-6. Dockerfile dosyasını düzelttikten sonra artık docker build alabiliriz.(Docker imajı olustururken tag   verebilirsiniz. Bu senaryo için "latest" tagini kullanınız ) 
+- `vi`: Dosya içerik düzenleme
 
-7. Docker konteynerini çalıştırın.
+6. Dockerfile dosyasını düzelttikten sonra artık docker build alabilirsiniz. Build işleminde "latest" ile tag ataması yapmalısınız. ("d****" ile belirtilen komutu siz yazmalısınız. )
 
-8. Uygulamamız başarılı bir şekilde ayağa kalktıktan sonra containerın çalışıp çalışmadığını ve hangi portlara bağlandığını gözden geçirin.
+- `d**** ***** -t <yeni_image_name>:latest .`
 
-9. Image içerisindeki dosyaları değiştirmek için ilgili komutu kullanarak çalışan bir Docker konteynerinin içine girebilirsiniz.
+7. Build aldığınız ve imaj oluşturduğunuz uygulamanızı ayağa kaldırmanız gerekmektedir.
+(İpucu: Github'dan çekilen go projesinde main.go'ya bakarsak host_port:8080 olduğunu kontrol ediniz.)
 
-10. Dosya ve klasörleri gözden geçiriniz daha sonra public klasörüne gidiniz.
+- `d***** *** -p <host_port>:<container_port> --name <container_name> :latest`
 
-11. Public klasörünün içinde yer alan index.html dosyasını metin editörü ile açarak değiştirelim. "Hoşgeldiniz BB" yazısını "HOŞGELDİNİZ " olarak düzeltiniz.
+8. Uygulamamız başarılı bir şekilde ayaga kalktı. Uygulamamızı içeren container'ın çalışıp çalışmadığını ve hangi portlara bağlandığını gözden geçiriniz.
+ `****** ps ` 
+
+9. Image içerisindeki dosyaları değiştirmek için docker exec -it komutu kullanarak bir çalışan bir Docker konteynerinin içine girebilirsiniz. Aşagıdaki komutu çalıştırın.
+```
+docker exec -it   my-container /bin/sh 
+```
+
+10. Public klasörünün içinde yer alan index.html dosyasını, metin editörü ile açarak değiştirelim. "Hoşgeldiniz BB" yazısına "HOŞGELDİNİZ " olarak düzeltiniz.
 
 - container içinden çıkalım. 
 
-12. Docker containerını durdurun ve yeni oluşan imaj ile containerı ayağa kaldırın.
+12. Docker containerını durdurun ve yeni imaj oluşturun ,oluşan imaj ile containerı ayağa kaldırın.
+- İpucu: Yeni imaj oluşturmadan önce eski imajı silmeniz gerekmektedir.
+- `docker rmi`: İmaj silme
 
 13. DockerHub'a olusturduğumuz bu imajı atmak için ilk olarak dockerhub websitesinden profil oluşturun.
 
@@ -38,6 +54,10 @@ Bu çıktıyı görüyorsanız,devam edebilirsiniz.
 ``` 
 docker login
 ```
-15. Docker imajınızı Docker Hub'a yüklemek için, öncelikle imajınıza Docker Hub kullanıcı adınızı etiketlemeniz gerekir.( Eğer 6.adımda image olustururken bunu yaptıysanız buna gerek yoktur )
+
+15. Docker imajınızı Docker Hub'a yüklemek için, öncelikle imajınıza Docker Hub kullanıcı adınızı etiketlemeniz gerekir.( Eğer image olustururken bunu yaptıysanız buna gerek yoktur )
+
+`docker tag <image_id or image_name> <Docker_Hub_Kullanıcı_Adı>/<Image_Adı>:latest`
 
 16. Docker image'ını Docker Hub'a push edin.
+
