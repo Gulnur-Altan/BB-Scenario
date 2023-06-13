@@ -5,4 +5,7 @@ In this tutorial, you will learn about the data structures in Go:
 - maps
 - structs
 
+First upload necessary packages `apk add go` \
+and text editor `apk add nano` 
+
 Click start button to enter scenario instruction. 🚀  

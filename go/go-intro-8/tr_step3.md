@@ -1,6 +1,8 @@
-### Step 3: Maps
+### Step 3: Map
 
-Maps are a key-value store, where you can store and retrieve values based on their keys. They are declared using the make function, and can be accessed using the bracket notation. Here's an example of how to create and modify a map:
+Map verileri anahtar-değer olarak tutar, değerleri anahtarlarına göre tutar ve getirir. Make işlevi kullanılarak bildirilirler ve köşeli parantez gösterimi kullanılarak erişilebilirler. Bir map yapısının nasıl oluşturulup, değiştirileceğine dair bir örnek aşağıda verilmiştir:
+
+Yeni bir sayfa oluşturalım `nano map.go`
 
 ```
 package main
@@ -24,13 +26,13 @@ func main() {
 }
 ```
 
-You should see this output
+Şu çıktıyı almalısınız.
 
 *Define a map* \
 *1* \
 *apple*
 
-If you can add this part at the end of the code 
+Aşağıdaki kısmı kodun sonuna eklediğinizde,
 
 ```
 	myMap := map[string]int{"a": 1, "b": 2, "c": 3}
@@ -38,7 +40,7 @@ If you can add this part at the end of the code
 	fmt.Println(myMap) 						// Output: map[a:1 c:3]
 ```
 
-If you see this output,you can move forward
+Bu çıktıyı alırsanız,devam edebilirsiniz.
 
 *Define a map* \
 *1* \

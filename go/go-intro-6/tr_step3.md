@@ -23,4 +23,4 @@ func main() {
 }
 ```
 
-Bu programda, 5 uzunluğunda ve 10 kapasiteli bir tam sayı dilimi için bellek tahsisi yapmak için make() işlevini kullanıyoruz. Ardından dilimin öğelerine değer atarız ve dilimin tamamını konsola yazdırırız. Son olarak, dilim için belleği serbest bırakırız, bunu nil ile yapabiliriz.
+Bu programda, 5 uzunluğunda ve 10 değerli bir slice bellek tahsisi yapmak için make() işlevini kullanıyoruz. Ardından slice öğelerine değer atarız ve slice ın tamamını konsola yazdırırız. Son olarak, slice için belleği serbest bırakırız, bunu nil ile yapabiliriz.
