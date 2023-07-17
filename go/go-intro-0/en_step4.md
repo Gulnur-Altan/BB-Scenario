@@ -39,18 +39,27 @@ to give permission to the file, and then execute it
 ## Editor
 
 On the Editor page, you can code by selecting the Go language.
+
 ![editör2.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/editor2.PNG)
+
 You can copy and save the code you wrote by clicking on the copy icon.
+
 ![copy_icon.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/copy_icon.PNG)
+
 You can transfer the code you wrote to the shell using the move icon on the side.
+
+![share_icon.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/share_icon.PNG)
 
 Remember to paste the code into the xxx.go page you created, not the Node ⚠️
 
 # Node 
 
 + You can open a new terminal by clicking on the Node icon.
+
 ![node.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/node.PNG)
+
 In the terminal you opened, you should perform the installations in the same way.
 Since you install the packages later, the commands may not work without the installations.
 Click on the port icon to access the relevant port.
+
 ![port_icon.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/go_port_icon.PNG)

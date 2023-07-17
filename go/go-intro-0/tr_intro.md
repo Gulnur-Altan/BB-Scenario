@@ -8,5 +8,5 @@ Bu eğitimdeki konular şunlardır:
 - Neden Go Öğrenmelisiniz ?
 - Kodları Yazarken
 - Senaryoların İçeriği ve Faydası Nedir?
--
+
 Başla butonuna tıklayarak talimatlarla eğitime başlayabilirsiniz. 🚀  
