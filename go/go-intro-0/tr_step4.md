@@ -17,6 +17,8 @@ Bunun yanında,
 *vi*  
 *vim*
 editörleri de tecih edilebilir.
+
+Bir dosya oluşturmayı deneyin `vi golang.txt` ,içine random karakterler yazın ve kaydedin.
 (İpucu: *i* ile Insert Mode aktif edilir,kodla *Esc* ile çık + *:wq* yaz + ardından *enter* kaydet ve çık)
 
 
@@ -24,18 +26,23 @@ editörleri de tecih edilebilir.
 
 Sağ tarafta bulunan Teminal ekranında Alphine Linux imajını kullanacaksınız.
 Kodları yazdıktan sonra execute etmeniz beklenmektedir.Bunun için,
-*go run xxx.go*
-xxx ile belirtilen kısma dosya ismi yazılmalıdır.
+*go run xxx.go* komutu kullanılır
+'xxx' ile belirtilen kısma dosya ismi yazılmalıdır.
+
 Ya da,
 *go chmod u+x xxx.go*
 dosyaya izin vererek
 *./xxx.go*
 şeklinde de execute edebilirsiniz.
 
+! Not : Terminale bir yazı kopyalamak için Ctrl + Shift + C ,
+yapıştırırken  Ctrl + Shift + V yapmalısınız
+
 
 ## Editör
 
 Editör sayfasında Go dilini seçerek kodlama yapabilirsiniz
+
 ![editör2.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/editor2.PNG)
 
 Kopyalama iconuna tıklayarak yazdığınız kodu kopyalayabilir,kaydedebilirsiniz.
@@ -51,6 +58,7 @@ Unutmayın yazılan kodu oluşturduğunuz *xxx.go* sayfasının içine atmalıs�
 # Node 
 
 + İconuna tıklayarak yeni terminal açabilirsiniz.
+
 ![node.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/node.PNG)
 
 Açtığınız terminalde yüklemeleri aynı şekilde yapmalısınız.
