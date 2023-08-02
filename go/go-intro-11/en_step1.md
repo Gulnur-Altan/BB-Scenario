@@ -48,7 +48,7 @@ Note: If Go is not installed in the first step, you will encounter an error at t
 
 If you received a similar output, you can continue.
 
-![output0.PNG](https://github.com/Gulnur-Altan/BB-Scenario/blob/master/go/Assets/output0.PNG)
+![output0.PNG](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/output0.PNG)
 
 In the above code, we open a file named sample.txt, read its content into a byte slice, and then print the read data.
 
