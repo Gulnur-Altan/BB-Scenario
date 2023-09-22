@@ -1,3 +1,10 @@
+### Go ile Mikroservisler
 
-Senaryoyu tamamladınız. 👏🏻
-Profil sayfasına dönmek ve oturumu kapatmak için sonlandır butonuna basınız.  
+Mutlu kodlamalar, Gopher!  💻 
+
+## Not
+Senaryoyu oylamayı unutma 😃, beğendiysen beğen butonuna basmaktan çekinme 🙃
+İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏
+
+Senaryoyu başarıyla tamamladın 😎👏🏻
+Oturumu kapatmak için sonlandır butonuna basabilirsin.

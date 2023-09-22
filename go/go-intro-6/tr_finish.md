@@ -9,5 +9,11 @@ Mümkün olduğunca manuel bellek tahsisini ve serbest bırakmayı önleyin. Yer
 Büyük miktarda veri depolamanız gerekiyorsa, bir veritabanı veya diğer harici depolama çözümü kullanmayı düşünün. Bu, bellek kullanımını azaltmaya ve performansı artırmaya yardımcı olabilir.
 Kodunuzu bellek sızıntısı veya diğer bellek ile ilgili sorunlara neden olmaması için dikkatlice test edin. Go'nun pprof paketi gibi araçları kullanarak bellek kullanımını analiz edin ve performans problemlerini tespit edin.
 
-Senaryoyu tamamladınız. 👏🏻
-Profil sayfasına dönmek ve oturumu kapatmak için sonlandır butonuna basınız.  
+Mutlu kodlamalar, Gopher!  💻 
+
+## Not
+Senaryoyu oylamayı unutma 😃, beğendiysen beğen butonuna basmaktan çekinme 🙃
+İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏
+
+Senaryoyu başarıyla tamamladın 😎👏🏻
+Oturumu kapatmak için sonlandır butonuna basabilirsin.

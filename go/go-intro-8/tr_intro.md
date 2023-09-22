@@ -1,4 +1,5 @@
 ### Hands-on Go Programlama :  Golang Veri Tipleri Öğrenin
+
 Bu senaryoda, Go dilinde veri tiplerini öğreneceksiniz:
 - dizi(array)
 - slice
