@@ -8,9 +8,9 @@ I hope this scenario helps you understand file operations in Go and gives you a 
 
 ## Note
 
-Don't forget to rate the scenario 😃,
-and if you liked it, don't hesitate to click the like button 🙃
-Make sure to leave a comment for content improvement 🙏
+Don't forget to rate the scenario 😃, <br />
+and if you liked it, don't hesitate to click the like button 🙃 <br />
+Make sure to leave a comment for content improvement 🙏 <br />
 
-You've successfully completed the scenario 😎👏🏻
+You've successfully completed the scenario 😎👏🏻 <br />
 You can click the finish button to end the session.

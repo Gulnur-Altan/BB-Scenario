@@ -3,9 +3,11 @@
 Mutlu kodlamalar, Gopher!  💻 
 
 ## Not
-Senaryoyu oylamayı unutma 😃, beğendiysen beğen butonuna basmaktan çekinme 🙃
-İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏
+## Not
+Senaryoyu oylamayı unutma 😃, <br />
+Beğendiysen beğen butonuna basmaktan çekinme 🙃<br />
+İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏<br />
 
-Senaryoyu başarıyla tamamladın 😎👏🏻
+Senaryoyu başarıyla tamamladın 😎👏🏻<br />
 Oturumu kapatmak için sonlandır butonuna basabilirsin.
 
