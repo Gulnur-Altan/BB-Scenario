@@ -7,9 +7,9 @@ Go dilinde dosya işlemleri yaparken hataları düzgün bir şekilde yönetmeye 
 Mutlu kodlamalar, Gopher!  💻 
 
 ## Not
-Senaryoyu oylamayı unutma 😃, beğendiysen beğen butonuna basmaktan çekinme 🙃
-İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏
-
-Senaryoyu başarıyla tamamladın 😎👏🏻
+Senaryoyu oylamayı unutma 😃, <br />
+Beğendiysen beğen butonuna basmaktan çekinme 🙃<br />
+İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏<br />
+Senaryoyu başarıyla tamamladın 😎👏🏻<br />
 Oturumu kapatmak için sonlandır butonuna basabilirsin.
 

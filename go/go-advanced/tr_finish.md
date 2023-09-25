@@ -1,4 +1,4 @@
-### Go ile Reflection ve Introspection Kavramları
+### Go'da Advanced Veri Yapıları ve Algoritmaları
 
 Bu senaryoda, Go'da Reflection ve Introspection kullanarak tiplerin yapısını runtime da incelemeyi ve değiştirmeyi öğrendiniz.
 
@@ -7,8 +7,8 @@ Reflection değişkenleri, fonksiyonları ve struct yapılarını incelemenize, 
 Mutlu kodlamalar, Gopher!  💻 
 
 ## Not
-Senaryoyu oylamayı unutma 😃, <br />
-Beğendiysen beğen butonuna basmaktan çekinme 🙃<br />
-İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏<br />
-Senaryoyu başarıyla tamamladın 😎👏🏻<br />
+Senaryoyu oylamayı unutma 😃, beğendiysen beğen butonuna basmaktan çekinme 🙃
+İçeriğin geliştirilmesi için bir yorum bıraktığından emin ol 🙏
+
+Senaryoyu başarıyla tamamladın 😎👏🏻
 Oturumu kapatmak için sonlandır butonuna basabilirsin.

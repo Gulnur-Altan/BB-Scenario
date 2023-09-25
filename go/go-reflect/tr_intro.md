@@ -1,8 +1,8 @@
-### Go'da Matris İşlemleri
+### Go ile Reflection ve Introspection Kavramları
 
-Go'da Matris İşlemleri senaryosuna hoş geldiniz! Bu senaryoda, matrislerle çalışırken Go programlama dilinin güçlü yönlerini keşfedeceğiz. Matrisler, veri analizi, makine öğrenimi ve bilgisayar grafikleri dahil olmak üzere çeşitli alanlarda kullanılan temel matematiksel yapılardır. Go'da matris işlemlerini anlayarak ve ustalaşarak, karmaşık problemleri etkili bir şekilde manipüle etmek, dönüştürmek ve çözmek için gerekli becerileri kazanacaksınız. Lineer cebir dünyasına dalın ve matris hesaplamaları için Go'nun potansiyelini açığa çıkarın!
+Bu senaryoda, Go programlama dilinde yansıma (reflection) ve özsayısal inceleme (introspection) kullanmayı öğreneceksiniz. Yansıma, tiplerin yapısını çalışma zamanında incelemenize ve manipüle etmenize olanak tanır ve dikkatli bir şekilde kullanıldığında güçlü bir özelliktir.
 
-Go'da matrislerle çalışmaya başlamadan önce, Go paketini kurmamız gerekiyor.
+Go'da Reflection ve Introspection ile çalışmaya başlamadan önce, Go paketini kurmamız gerekiyor.
 ```apk add go```
 Ve bir düzenleyici paketi,
 ```apk add nano``` 
