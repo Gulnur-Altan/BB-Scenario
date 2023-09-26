@@ -1,7 +1,7 @@
-### Step 2: 
+Programı yansıtma (reflection) kullanarak dinamik alan değişikliğine izin vermek için düzenleyin. Belirli bir alana yeni bir değer belirlemek için bir fonksiyon ekleyelim
 
-Modify the program to allow dynamic field modification using reflection. Add a function to set a new value for a specific field.
-You can edit the same file and execute again,
+Aynı dosyayı düzenleyebilir ve yeniden çalıştırabilirsiniz,
+```vi reflection.go``` 
 
 ```
 func setField(person interface{}, fieldName string, newValue interface{}) {
@@ -34,8 +34,21 @@ func main() {
 	inspectStruct(person)
 }
 ```
-Step 3: Run the modified program. It should now allow you to change the value of a specific field dynamically using reflection.
+Değişiklikleri eklediysen, kodu çalıştır. Artık yansıtma (reflection) kullanarak belirli bir alanın değerini dinamik olarak değiştirmenize izin verilir.
 
-Step 4 (Optional): Experiment with different struct types and field values to further explore the capabilities of reflection and introspection in Go.
+Type: main.Person<br />
+Fields:<br />
+Name (string): John Doe<br />
+Age (int): 30<br />
+Address (string): 123 Main St<br />
 
-Conclusion: In this lab, you've learned how to use reflection and introspection in Go to inspect and manipulate the structure of types at runtime. While reflection can be powerful, it should be used sparingly and carefully due to its performance implications and potential for runtime errors.
+Type: main.Person<br />
+Fields:<br />
+Name (string): John Doe<br />
+Age (int): 35<br />
+Address (string): 123 Main St<br />
+Program exited.
+
+Çıktıyı görüyorsanız,devam edebilirsiniz.
+
+

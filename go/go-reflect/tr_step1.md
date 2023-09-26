@@ -1,8 +1,8 @@
 ### Exploring Reflection and Introspection in Go
 
 
-Lets Create a Go program with a struct definition and a function to inspect its fields using reflection.
-Make a new file ```vi reflection.go``` and paste the code down below.
+Bir Go programı oluşturmak için bir struct oluşturup ve yansıtma (reflection) kullanmak için bir fonksiyon oluşturalım.  <br />
+Yeni bir go dosyası oluşturun ```nano reflection.go``` ve aşağıdaki kodu yapıştırın. 
 
 ```
 package main
@@ -47,9 +47,15 @@ func main() {
 	inspectStruct(person)
 }
 ```
-Lets Run the program and observe the output.
+Programı çalıştıralım <br />
 ```go run reflection.go```
 
-It should display the type of the struct and the fields along with their names, types, and values.
-If you see the output, you can continue..
+Fields:  <br />
+Name (string): John Doe  <br />
+Age (int): 30  <br />
+Address (string): 123 Main St 
+
+struct ın tipini ve değerleri görüyorsanız,devam edebilirsiniz..
+
+
 

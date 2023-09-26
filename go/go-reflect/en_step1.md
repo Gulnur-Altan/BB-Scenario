@@ -50,6 +50,12 @@ func main() {
 Lets Run the program and observe the output.
 ```go run reflection.go```
 
+Type: main.Person <br />
+Fields:  <br />
+Name (string): John Doe  <br />
+Age (int): 30  <br />
+Address (string): 123 Main St 
+
 It should display the type of the struct and the fields along with their names, types, and values.
 If you see the output, you can continue..
 

@@ -4,6 +4,8 @@ Bu senaryoda, Go'da Reflection ve Introspection kullanarak tiplerin yapısını 
 
 Reflection değişkenleri, fonksiyonları ve struct yapılarını incelemenize, runtime da değiştirmenize ve oluşturmanıza olanak tanır. Reflection performans etkileri ve runtime hataları potansiyeli nedeniyle dikkatlice kullanılmalıdır.
 
+Farklı struct tipleri ile denemeler yaparak, Go'nun yansıtma (reflection) ve introspection yeteneklerini daha fazla keşfetmeyi unutmayın.
+
 Mutlu kodlamalar, Gopher!  💻 
 
 ## Not

@@ -36,5 +36,18 @@ func main() {
 ```
 Step 3: Run the modified program. It should now allow you to change the value of a specific field dynamically using reflection.
 
+Type: main.Person<br />
+Fields:<br />
+Name (string): John Doe<br />
+Age (int): 30<br />
+Address (string): 123 Main St<br />
+
+Type: main.Person<br />
+Fields:<br />
+Name (string): John Doe<br />
+Age (int): 35<br />
+Address (string): 123 Main St<br />
+Program exited.
+
 Step 4 (Optional): Experiment with different struct types and field values to further explore the capabilities of reflection and introspection in Go.
 
