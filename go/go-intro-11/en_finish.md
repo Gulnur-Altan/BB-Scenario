@@ -6,6 +6,8 @@ Remember to handle errors properly when working with files in Go to ensure a smo
 
 I hope this scenario helps you understand file operations in Go and gives you a solid foundation to work with files in your projects. 
 
+Happy coding Gopher ! 💻
+
 ## Note
 
 Don't forget to rate the scenario 😃, <br />

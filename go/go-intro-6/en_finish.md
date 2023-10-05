@@ -9,6 +9,8 @@ Use pointers sparingly and only when necessary. Overuse of pointers can make cod
 If you need to store large amounts of data, consider using a database or other external storage solution. This can help reduce memory usage and improve performance.
 Test your code thoroughly to ensure that it doesn't leak memory or cause other memory-related issues. Use tools like Go's pprof package to analyze memory usage and identify performance bottlenecks.
 
+Happy coding Gopher ! 💻
+
 ## Note
 
 Don't forget to rate the scenario 😃, <br />

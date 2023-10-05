@@ -6,6 +6,8 @@ Golang 101 kursuna hoşgeldiniz.
 
 Bu eğitimdeki konular şunlardır:
 - Neden Go Öğrenmelisiniz ?
+- Go Bulut Bilişim için Önemli midir?
+- Go Kullanım İstatistikleri
 - Kodları Yazarken
 - Senaryoların İçeriği ve Faydası Nedir?
 

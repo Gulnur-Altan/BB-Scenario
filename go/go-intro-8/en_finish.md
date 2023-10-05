@@ -1,5 +1,7 @@
 ### Hands-on Go Programming: Learn Google’s Golang Data Structures
 
+Happy coding Gopher ! 💻
+
 ## Note
 
 Don't forget to rate the scenario 😃, <br />

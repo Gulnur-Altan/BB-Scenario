@@ -1,5 +1,7 @@
 ### Building and deploying Go applications on cloud platforms
 
+Happy coding Gopher ! 💻
+
 ## Note
 
 Don't forget to rate the scenario 😃, <br />

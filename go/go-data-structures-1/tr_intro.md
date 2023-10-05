@@ -1,8 +1,7 @@
-# Golang'da Testler
+### Go ile Advanced Veri Yapıları
+xx
 
-Bu senaryoda, Go programlama dilinde test yazmayı öğreneceğiz.
-
-Go'da Testler ile çalışmaya başlamadan önce, Go paketini kurmamız gerekiyor.
+Go'da Advanced Veri Yapıları ile çalışmaya başlamadan önce, Go paketini kurmamız gerekiyor.
 ```apk add go```
 Ve bir düzenleyici paketi,
 ```apk add nano``` 

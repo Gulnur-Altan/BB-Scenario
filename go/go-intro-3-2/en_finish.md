@@ -1,5 +1,7 @@
 ### Understanding Go standard library
 
+Happy coding Gopher ! 💻
+
 ## Note
 
 Don't forget to rate the scenario 😃, <br />
