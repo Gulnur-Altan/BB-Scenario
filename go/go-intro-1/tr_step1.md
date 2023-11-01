@@ -5,5 +5,4 @@ Google’ın programalama dili olması nedeniyle Google Go olarak ta adlandırı
 ## Senaryo Öncesi
 
 Birazdan başlayacağınız Go senaryosu için çalışma ortamınızı kurmanız gerekmektedir. Bu sebeple belirtilen komutlara tıklayıp kurulum işlemlerinin gerçekleşinceye kadar beklemeniz gerekmektedir. (Bu işlem 1 dakika sürmektedir.)
-
-Senaryo talimatına girmek için devam edebiliriz.
+ `apk add go` ve  `apk add nano `ile ilgili paketleri yüklediyseniz, devam edebilirsiniz..

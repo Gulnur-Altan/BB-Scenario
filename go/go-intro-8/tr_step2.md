@@ -2,12 +2,9 @@
 
 Slice yapısı, sabit bir boyutu olmayan, dinamik bir dizi yapısını ifade eder. make fonksiyonu kullanılarak tanımlanırlar ve append fonksiyonu kullanılarak boyutları değiştirilebilir. Bir slice nasıl oluşturulur ve değiştirilir, örnek olarak aşağıda verilmiştir:
 
-İlk olarak,  `nano slice.go` komutunu kullanarak bir go dosyası oluşturun.
+İlk olarak,  `slice.go` isimli bir go dosyası oluşturun.
 
-Ardından kodu yapıştırın ve çalıştırın
-ya da
-editör sayfasını açarak kendiniz yazabilirsiniz
-
+Ardından kodu yapıştırın ve çalıştırın,
 
 ```
 package main
@@ -27,6 +24,7 @@ func main() {
 	}
 }
 ```
+
 Bu çıktıyı alıyorsanız,devam edebilirsiniz.
 
 *1* \

@@ -35,4 +35,3 @@ func main() {
 Bu kodda, cikti.txt adında yeni bir dosya oluşturur ve içeriğe "Merhaba, bu dosyaya yazıldı!" yazısını yazar.
 Bu çıktıyı alıyorsanız devam edebilirsiniz.
 
-![cikti0.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/cikti0.PNG)

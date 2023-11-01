@@ -1,13 +1,12 @@
-## 2. Egzersiz
-Let's create a new page.
+## 2. Exercise
+
+Let's create a new page using editor.File->new file
+
+named -> `variables.go`
+
+Let's add 1 more variable to the following code and run it.
 
 ```
-vim variables.go
-```
-Let's add 1 more variable to the following code and save ( Esc :wq ) and run it.
-
-```
-Copy code
 package main
 import "fmt"
 
@@ -37,8 +36,12 @@ func main() {
     // Let g be 10 and printed like the examples above with fmt.Println().
 }
 ```
-Çalıştırmak için,
+It saved automatically 
+
+to execute,
+
 ```
 go run variables.go
 ```
+
 If we can see the output of the variables on the screen, let's continue.

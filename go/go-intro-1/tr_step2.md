@@ -1,10 +1,8 @@
 ## İlk Egzersiz
 
-İlk olarak Go'yu yüklemeliyiz.
-```
-apk add go
-```
+
 Sayfaları oluşturuken "Vim Editörü" kullanacağız.Kısayollara hızlı bir göz atalım.
+(Not: Bu adımda isterseniz yüklediğimiz nano editörünü de kullanabilirsiniz)
 
 :q = Eğer yapılan değişiklikler kaydedilmişse Vim editörünü kapatır. Aksi durumda uyarı verecektir.
 
@@ -20,6 +18,7 @@ Ardından vim editöründe "hello.go" adlı ilk sayfayı oluşturalım.
 vim hello.go
 ```
 Açılan sayfada işlem yapabilmek için "i" harfine basarak "Insert Mode" u aktif hale getirelim ve sayfaya çalıştırmak istediğimiz kodu atalım.
+
 Golang ile basit bir "Hello,World!" uygulaması yapalım
 ```
 package main
@@ -35,5 +34,6 @@ Ardından hello.go sayfasını çalıştıralım
 go run hello.go
 ```
 Doğru Çıktı : Hello, World!
-Not:Eğer bu adımda "bash: go: command not found" hatası aldıysanız,Go'nun yüklemeyi tekrar denemelisiniz.
+
+Not:Eğer bu adımda "bash: go: command not found" hatası aldıysanız,Go'yu yüklemeyi tekrar denemelisiniz. <br />
 Şimdi devam edebiliriz.
