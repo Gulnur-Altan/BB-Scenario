@@ -22,47 +22,39 @@ Bir dosya oluşturmayı deneyin `vi golang.txt` ,içine random karakterler yazı
 (İpucu: *i* ile Insert Mode aktif edilir,kodla *Esc* ile çık + *:wq* yaz + ardından *enter* kaydet ve çık)
 
 
-## Terminal
+## Editör
 
-Sağ tarafta bulunan Teminal ekranında Alphine Linux imajını kullanacaksınız.
+Sağ tarafta bulunan Editör ekranında Alphine Linux imajını kullanacaksınız.
 Kodları yazdıktan sonra execute etmeniz beklenmektedir.Bunun için,
-*go run xxx.go* komutu kullanılır
+
+*go run xxx.go* komutu kullanılır  <br />
 'xxx' ile belirtilen kısma dosya ismi yazılmalıdır.
 
 Ya da,
-*go chmod u+x xxx.go*
-dosyaya izin vererek
-*./xxx.go*
+*go chmod u+x xxx.go*  <br />
+dosyaya izin vererek  <br />
+*./xxx.go*  <br />
 şeklinde de execute edebilirsiniz.
 
-! Not : Terminale bir yazı kopyalamak için Ctrl + Shift + C ,
-yapıştırırken  Ctrl + Shift + V yapmalısınız
+! Not : Terminale bir yazı kopyalamak için Ctrl + C , <br />
+yapıştırırken  Ctrl + V komutlarını kullanabilirsiniz.
 
 
 ## Editör
 
 Editör sayfasında Go dilini seçerek kodlama yapabilirsiniz
 
-![editör2.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/editor2.PNG)
+![editor.png](https://raw.githubusercontent.com/Gulnur-Altan/BB-Scenario/master/go/Assets/editor.PNG)
 
-Kopyalama iconuna tıklayarak yazdığınız kodu kopyalayabilir,kaydedebilirsiniz.
 
-![copy_icon.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/copy_icon.PNG)
+Unutmayın yazılan kodu *xxx.go* gibi go uzantılı sayfaya yazmalısınız ⚠️
 
-Yandaki taşı iconu ile yazdığınız kodu shell e atabilirsiniz.
+# Terminal
 
-![share_icon.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/share_icon.PNG)
+Ctrl + Shift + " tıklayarak yeni terminal açabilirsiniz.
 
-Unutmayın yazılan kodu oluşturduğunuz *xxx.go* sayfasının içine atmalısınız,node a değil ⚠️
+![terminal.png](https://raw.githubusercontent.com/Gulnur-Altan/BB-Scenario/master/go/Assets/terminal.PNG)
 
-# Node 
-
-+ İconuna tıklayarak yeni terminal açabilirsiniz.
-
-![node.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/node.PNG)
-
-Açtığınız terminalde yüklemeleri aynı şekilde yapmalısınız.
-Paketleri sonradan yüklediğiniz için ,yükleme olmadan komutlar çalışmayabilir.
-İlgili porta ilerlemek için port ikonuna tıklamalısınız.
+İlgili porta ilerlemek için sol taraftaki port ikonuna tıklamalısınız.
 
 ![port_icon.png](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/go_port_icon.PNG)

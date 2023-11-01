@@ -1,6 +1,9 @@
 ### Step 4: Structs
 
 Structs are a way to group related values together into a single data structure. They are declared using the type keyword, and can be accessed using the dot notation. Here's an example of how to create and modify a struct:
+
+Meke a new page `struct.go`
+
 ```
 package main
 

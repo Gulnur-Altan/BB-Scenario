@@ -1,9 +1,6 @@
 ## First Exercise
-Firstly, we need to install Go.
-```
-apk add go
-```
-We will use "Vim Editor" when creating pages. Let's take a quick look at shortcuts.
+
+We will use "VimEditor" when creating pages. Let's take a quick look at shortcuts.
 
 :q = Closes the Vim editor if the changes are saved. Otherwise, it will warn you.
 

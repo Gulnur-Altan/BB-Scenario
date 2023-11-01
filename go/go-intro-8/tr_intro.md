@@ -6,7 +6,6 @@ Bu senaryoda, Go dilinde veri tiplerini öğreneceksiniz:
 - map
 - struct
 
-İlk olarak ilgili paketleri yükleyelim `apk add go` \
-metin editörünü yükleyelim `apk add nano` 
+İlk olarak ilgili paketleri yükleyelim `apk add go`
 
 Başla butonuna tıklayarak talimatlarla eğitime başlayabilirsiniz. 🚀

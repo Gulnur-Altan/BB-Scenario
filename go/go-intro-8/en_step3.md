@@ -2,6 +2,8 @@
 
 Maps are a key-value store, where you can store and retrieve values based on their keys. They are declared using the make function, and can be accessed using the bracket notation. Here's an example of how to create and modify a map:
 
+Meke a new page `map.go`
+
 ```
 package main
 

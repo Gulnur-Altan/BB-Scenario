@@ -18,7 +18,7 @@ You can also use a short syntax to create and initialize an array:
 *numbers := [5]int{10, 20, 30, 40, 50}*
 
 To print the elements of an array, you can use a loop:
-First create a go file with `nano array.go`
+First create a go file with File->New File named : `array.go`
 
 Paste the code and execute.
 
@@ -46,4 +46,11 @@ func main() {
 
 `go run array.go`
 
-This will print the numbers 10, 20, 30, 40, and 50 on separate lines.
+
+*10* \
+*20* \
+*30* \
+*40* \
+*50*
+
+Make sure see this output,if you can see this output,please continue..

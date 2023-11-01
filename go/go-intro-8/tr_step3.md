@@ -2,7 +2,7 @@
 
 Map verileri anahtar-değer olarak tutar, değerleri anahtarlarına göre tutar ve getirir. Make işlevi kullanılarak bildirilirler ve köşeli parantez gösterimi kullanılarak erişilebilirler. Bir map yapısının nasıl oluşturulup, değiştirileceğine dair bir örnek aşağıda verilmiştir:
 
-Yeni bir sayfa oluşturalım `nano map.go`
+Yeni bir sayfa oluşturalım `map.go`
 
 ```
 package main

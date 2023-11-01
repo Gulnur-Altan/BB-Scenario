@@ -19,8 +19,8 @@ Ayrıca, bir dizi oluşturup başlatmak için kısa bir sözdizimi de kullanabil
 *numbers := [5]int{10, 20, 30, 40, 50}*
 
 Dizinin elemanlarını yazdırmak için bir döngü kullanabilirsiniz.
-İlk olarak,  `nano array.go` komutunu kullanarak bir go dosyası oluşturun.
 
+İlk olarak File->New File ile `array.go` isimli ile bir go dosyası oluşturun.
 Ardından kodu yapıştırın ve çalıştırın:
 
 

@@ -2,7 +2,7 @@
 
 Struct yapısı, ilgili değerleri tek bir veri yapısında gruplandırmanın bir yoludur. Type anahtar sözcüğü kullanılarak bildirilirler ve nokta işareti kullanılarak erişilebilirler. İşte bir struct yapısının nasıl oluşturulup değiştirileceğine dair bir örnek:
 
-Yeni bir sayfa oluşturalım.`nano struct.go`
+Yeni bir sayfa oluşturalım.`struct.go`
 ```
 package main
 

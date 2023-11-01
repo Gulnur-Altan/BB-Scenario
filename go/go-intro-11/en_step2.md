@@ -37,5 +37,4 @@ In this code, we create a new file named output.txt and write the content "Hello
 
 Run the code , if you have same output ,you can move forward to next step.
 
-![output1.PNG](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/output1.PNG)
 
