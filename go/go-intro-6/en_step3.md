@@ -5,6 +5,9 @@ Although Go's garbage collector is highly effective, it's still possible to manu
 
 Here's an example of how you can use the make() function to allocate memory for a slice:
 
+Please dont change previous file, make new one
+named-> `exp2.go`
+
 ```
 package main
 
@@ -22,4 +25,6 @@ func main() {
     slice = nil
 }
 ```
+Execute it 
+
 In this program, we use the make() function to allocate memory for a slice of integers with a length of 5 and a capacity of 10. We then assign values to the slice's elements and print the entire slice to the console. Finally, we deallocate the memory for the slice by setting it to nil.

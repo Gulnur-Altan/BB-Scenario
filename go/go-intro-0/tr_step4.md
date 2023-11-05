@@ -40,9 +40,7 @@ dosyaya izin vererek  <br />
 yapıştırırken  Ctrl + V komutlarını kullanabilirsiniz.
 
 
-## Editör
-
-Editör sayfasında Go dilini seçerek kodlama yapabilirsiniz
+Editör sayfasında sayfalar oluşturup, kodlama yapabilirsiniz
 
 ![editor.png](https://raw.githubusercontent.com/Gulnur-Altan/BB-Scenario/master/go/Assets/editor.PNG)
 

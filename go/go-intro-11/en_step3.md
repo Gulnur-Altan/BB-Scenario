@@ -1,10 +1,12 @@
 ### File Operations and Manipulations
 
 Go provides many other file operations, such as renaming, deleting, and checking the existence of files. Here are a few examples:
-First, create a text file `vi oldText.txt`, write random text in it and exit
-(Note: press the letter i to activate the insert mode to write) 
 
-Type `vi fileOperations.go` to create new go file. Paste the code 
+First, create a text file `oldText.txt`, write random text in it and exit
+
+create new go file -> `fileOperations.go` 
+
+Paste the code 
 
 ```
 package main
@@ -29,7 +31,7 @@ func main() {
 Check if newText.txt has been created using the `ls` command.
 You should see the new text ,after that you should delete the new text using the code down below.
 
-Type `vi fileOperations2.go` to create new go file.
+create new go file-> `fileOperations2.go`
 Paste the code following code into fileOperations2.go:
 
 ```

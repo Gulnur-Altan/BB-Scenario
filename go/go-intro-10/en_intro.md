@@ -4,9 +4,8 @@ Welcome to the world of Matrix Operations in Go! In this course, we will explore
 
 Before we start working with matrices in Go, we need to install the Go package. 
 ```apk add go```
-And an editor package,
-```apk add nano``` 
-This command will download and install the Go and nano package.
+
+This command will download and install the Go package.
 
 Click start button to enter scenario instruction. 🚀  
 

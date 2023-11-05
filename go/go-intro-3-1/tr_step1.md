@@ -8,8 +8,9 @@ apk add go
 ```
 mkdir go-webserver && cd go-webserver
 ```
-2. Vim metin düzenleyicisi kullanarak main.go adında yeni bir dosya oluşturun:
-```vim main.go```
+2. main.go adında yeni bir dosya oluşturun:
+```main.go```
+
 3. main.go dosyasında, Go standart kütüphanesinden net/http paketini içe aktarın ve gelen istekleri işleyecek bir handler fonksiyonu tanımlayın:
 
 4.Belirli bir bağlantı noktasında (bu durumda port 8080) sunucuyu başlatacak olan main fonksiyonunu tanımlayın:
@@ -38,5 +39,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
 go run main.go
 ```
 
-7. Shell'in üstünde bulunan porta git ikonu ile 8080 adresine giderek "Merhaba, Dünya!" mesajını tarayıcınızda görüntüleyin.
+7. Sol taraftaki navbarda bulunan porta git ikonu ile 8080 adresine giderek "Merhaba, Dünya!" mesajını tarayıcınızda görüntüleyin.
 Tebrikler, Go standart kütüphanesi kullanarak basit bir web sunucusu başarıyla oluşturdunuz!

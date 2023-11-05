@@ -5,7 +5,7 @@ Golang'da hata ayıklama için debugger ın yanı sıra, go test gibi kodun test
 
 Golang'da hata ayıklama için go test komutunu nasıl kullanacağınızın örneğini görmek için, aşağıdaki kodu içeren main_test.go adlı yeni bir dosya oluşturun:
 
-```main_test.go```
+dosya ismi-> ```main_test.go```
 
 ```
 package main

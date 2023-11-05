@@ -1,0 +1,7 @@
+{
+    "command": [
+        "sh",
+        "-c",
+        "cat /root/workspace/go-webserver/main.go | grep '8086' && cat /root/workspace/calculator.go > /dev/null 2>&1 || exit 1"
+    ]
+}

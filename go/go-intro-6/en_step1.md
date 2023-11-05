@@ -6,8 +6,5 @@ Go is a modern programming language that offers automatic memory management. Thi
 
 First,we need to add some packages.
 ```apk add go```
-then add nano editor,
-```apk add nano```
-before the examples you should add go page like this,
-```nano exp1.go``` ,
-after that you can paste the codes.
+
+after that you can continue coding.

@@ -10,7 +10,7 @@ A matrix is a two-dimensional array of numbers arranged in rows and columns. It 
 Go provides various packages and libraries to work with matrices efficiently. One popular library is Gonum, which offers extensive functionalities for numerical computations and scientific computing.
 
 
-Create a Go page with an editor. Name should be matrix.go
+Create a Go page. Name should be matrix.go
 
 ```
 package main

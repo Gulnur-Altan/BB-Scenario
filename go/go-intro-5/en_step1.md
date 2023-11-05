@@ -6,8 +6,7 @@ In Go, errors are values that represent an abnormal condition or state that occu
  
 Create a folder  ```mkdir ./error``` ,
 go the folder  ```cd ./error``` ,
-add nano editor  ```apk add nano``` or you can use "vi","vim" it is up to you ,
-make a go file  ```nano error.go``` ,
+make a go file  ```error.go``` ,
 
 To see an example of how errors are returned in Go, paste the following command:
 ```

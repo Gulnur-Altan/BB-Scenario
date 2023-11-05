@@ -9,13 +9,13 @@ In Go, you can use the os package to open and read files. The os.Open() function
 
 Here's an example of how to open and read a text file in Go:
 
-First, let's create a text file using vi.
+create the file -> `sample.txt` 
+Inside the file, write `Cloud computing in 2023.` After writing the text, save and exit the file 
 
-Type `vi sample.txt` to create the file.
-Inside the file, write `Cloud computing in 2023.` ( Note:To write the text, press the i key to enter insert mode.)After writing the text, save and exit the file ( Note: exit by pressing ESC, then type :wq! and hit Enter. )
+Now, let's create a Go file named ->`file.go` .
 
-Now, let's create a Go file using a text editor. The file can be named file.go. Type `vi file.go` to create the file. Edit the code in the editor and change the `filename.txt` to `sample.txt` , 
-then use the >> icon to paste the content into file.go.
+Edit the code down below in the editor and change the `filename.txt` to `sample.txt` , 
+paste the content into file.go.
 
 ```
 package main

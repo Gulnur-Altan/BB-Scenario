@@ -1,7 +1,8 @@
 ## İlk Egzersiz
 
 
-Sayfaları oluşturuken "Vim Editörü" kullanacağız.Kısayollara hızlı bir göz atalım.
+Sayfaları oluşturuken "Vim Editörü" kullanacağız. <br />
+Kısayollara hızlı bir göz atalım.<br />
 (Not: Bu adımda isterseniz yüklediğimiz nano editörünü de kullanabilirsiniz)
 
 :q = Eğer yapılan değişiklikler kaydedilmişse Vim editörünü kapatır. Aksi durumda uyarı verecektir.

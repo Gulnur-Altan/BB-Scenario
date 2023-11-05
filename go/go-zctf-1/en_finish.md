@@ -1,8 +1,7 @@
-### Matrix Operations in Go
-
-This is a simple package that implements matrix operations. The goal of this project was to learn how to write tests and use the `go test`
+### Golang CTF 
 
 Happy coding Gopher ! 💻
+
 
 ## Note
 

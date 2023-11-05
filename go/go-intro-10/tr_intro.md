@@ -4,8 +4,7 @@ Go'da Matris İşlemleri senaryosuna hoş geldiniz! Bu senaryoda, matrislerle ç
 
 Go'da matrislerle çalışmaya başlamadan önce, Go paketini kurmamız gerekiyor.
 ```apk add go```
-Ve bir düzenleyici paketi,
-```apk add nano``` 
-Bu komut, Go ve nano paketini indirip kuracaktır.
+
+Bu komut Go paketini indirip kuracaktır.
 
 Senaryo talimatlarına girmek için başlat düğmesine tıklayın. 🚀

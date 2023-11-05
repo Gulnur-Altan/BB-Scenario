@@ -9,7 +9,7 @@ Bir matris, sayıların satır ve sütunlarda düzenlendiği iki boyutlu bir diz
 ### Go'da Matrislerle Çalışmak
 Go, matrislerle verimli bir şekilde çalışmak için çeşitli paketler ve kütüphaneler sağlar. Popüler bir kütüphane olan Gonum, sayısal hesaplamalar ve bilimsel hesaplama için geniş işlevsellikler sunar.
 
-Bir metin editörü ile Go sayfası oluşturun. Adı matrix.go olmalı.
+Go sayfası oluşturun. Adı matrix.go olmalı.
 
 ```
 package main

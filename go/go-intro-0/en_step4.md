@@ -21,9 +21,10 @@ In addition,
 (Tip: Activate Insert Mode with i, edit the code, exit with *Esc* + type *:wq* + press *enter* to save and exit)
 other editors can also be preferred.
 
-## Terminal
+## Editor
 
-You will be using the Alpine Linux image in the Terminal screen on the right.
+You will be using the Alpine Linux image in the Editor screen on the right.
+
 After writing the code, you are expected to execute it. For this purpose,
 
 *go run xxx.go*

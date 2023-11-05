@@ -7,8 +7,7 @@ Golang Fonksiyonlar senaryosuna hoşgeldiniz.
 Bu eğitimde ,
 Golang fonksiyon kullanımı temel becerilerini edineceksiniz.
 
-İlk olarak ilgili paketleri yükleyelim `apk add go` \
-metin editörünü yükleyelim `apk add nano` 
+İlk olarak ilgili paketleri yükleyelim `apk add go`
 
 Başlat butonuna tıklayarak talimatlarla eğitime başlayabilirsiniz. 🚀 
 

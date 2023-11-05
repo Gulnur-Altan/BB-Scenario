@@ -1,4 +1,5 @@
 #### Kanallar(Channels)
+
 Kanallar, gorutinler arasında iletişim kurmak için kullanılır. Bir gorutinden diğerine değer göndermenizi ve almanızı sağlar. Kanallar, paylaşılan kaynaklara erişimi senkronize etmek veya programın farklı bölümleri arasında veri aktarmak için kullanılabilir.
 
 Kanal oluşturmak için make işlevi kullanılabilir:
@@ -12,8 +13,10 @@ Bir kanaldan bir değer almak için aynı operatör kullanılabilir:
 
 x := <-ch // kanaldan bir değer al ve x değişkenine kaydet
 Gorutinleri ve kanalları birlikte nasıl kullanabileceğinize dair bir örnek çalıştıralım. İlk olarak yeni sayfa oluşturalım.
-```vim channel.go```
+
+dosya adı-> ```channel.go```
 Kodları atalım.
+
 ```
 package main
 import "fmt"
@@ -36,7 +39,7 @@ func main() {
     fmt.Println(x + y) 
 }
 ```
-Kaydet ve çık (Kısayol ESC + :wq! )
-Kodu çalıştırıken,
-```go run channel.go```
+
+Kodu çalıştırıken -> ```go run channel.go```
+
 Bu örnekte, sum fonksiyonu bir tam sayı dilimi toplamını hesaplar ve sonucu kanal aracılığıyla gönderir. Ana işlev, dilimin yarısını hesaplamak için iki gorutin çalıştıran sum işlevini çalıştırır. Sonuçlar daha sonra kanaldan alınır ve toplanarak son toplam elde edilir.Sonuç 15 se devam edebiliriz.

@@ -2,7 +2,7 @@
 
 Slices are a dynamic version of arrays, with no fixed size. They are declared using the make function, and can be resized using the append function. Here's an example of how to create and modify a slice:
 
-First create a go file named `nano slice.go`
+First create a go file named `slice.go`
 
 Paste the code and execute
 
@@ -24,7 +24,7 @@ func main() {
 	}
 }
 ```
-If you see this output ,you can continue
+If you see this correct output ,you can continue..
 
 *1* \
 *2* \

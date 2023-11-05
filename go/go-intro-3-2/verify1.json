@@ -2,6 +2,6 @@
     "command": [
         "sh",
         "-c",
-        "[ -d /home ] && exit 0"
+        "cat /root/workspace/public/index.html | grep 'Bulut Bilisimciler' > /dev/null 2>&1 || exit 1[ -d /home ] && exit 0"
     ]
 }

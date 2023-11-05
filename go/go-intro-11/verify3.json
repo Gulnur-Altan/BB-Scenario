@@ -2,6 +2,6 @@
     "command": [
         "sh",
         "-c",
-        "[ -d /home ] && exit 0"
+        "cat /root/workspace/newText.txt > /dev/null 2>&1 || exit 1"
     ]
 }

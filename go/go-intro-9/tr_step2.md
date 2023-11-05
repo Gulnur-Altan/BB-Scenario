@@ -3,6 +3,8 @@
 
 Go fonksiyonları birden fazla değer döndürebilir, bu da oldukça kullanışlı bir özelliktir. İşte iki sayının bölümünü ve kalanını hesaplayan bir fonksiyon örneği:
 
+Bu senaryoda bir önceki adımda oluşturduğunuz main dosyasına yeni kodu atabilirsiniz.
+
 ```
 package main
 

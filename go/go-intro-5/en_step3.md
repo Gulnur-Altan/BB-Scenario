@@ -5,7 +5,7 @@ In Go, errors are typically handled using the if err != nil pattern. This patter
 
 To see an example of how to handle errors in Go, run the following command:
 
-```nano error3.go```
+named -> ```error3.go```
 
 ```
 package main

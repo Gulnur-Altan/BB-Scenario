@@ -25,7 +25,7 @@ func main() {
 }
 ```
 
-Bu çıktıyı alıyorsanız,devam edebilirsiniz.
+Bu çıktıyı almalısınız doğruysa,devam edebilirsiniz.
 
 *1* \
 *2* \

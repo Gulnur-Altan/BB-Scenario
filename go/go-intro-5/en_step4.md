@@ -3,8 +3,9 @@
 
 Debugging Go code can be done using a variety of techniques, such as print statements, debuggers, and profiling tools. The fmt package in Go provides a simple way to print debug information to the console, while debuggers like Delve can be used to step through code and inspect variables.
 
-To see an example of how to use the fmt package for debugging in Go, run the following command:
-```nano error4.go```
+To see an example of how to use the fmt package for debugging in Go, make a go file:
+
+named -> ```error4.go```
 
 ```
 package main

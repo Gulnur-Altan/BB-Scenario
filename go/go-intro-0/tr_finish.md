@@ -6,6 +6,8 @@ Unutmayın, her büyük başarı küçük adımlarla başlar. Go dilini öğrenm
   
 Mutlu kodlamalar, Gopher!  💻 
 
+![gif0](https://media3.giphy.com/media/3oKIPnAiaMCws8nOsE/200w.webp?cid=ecf05e475xdwnhr91nh7md2wsl15lav1xm5d4gw160fghzrr&ep=v1_gifs_search&rid=200w.webp&ct=g)
+
 ## Not
 
 Senaryoyu oylamayı unutma 😃, <br />

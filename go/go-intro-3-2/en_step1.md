@@ -5,13 +5,11 @@
 ```
 apk add go
 ```
-2. Create a new file called main.go using a text editor such as nano or vim:
-But first we need to add nano 
-```apk add nano```
-Then,
-```nano main.go```
+2. Create a new file called main.go
+```main.go```
 
 3. In the main.go file, import the net/http package from the Go standard library and define a handler function that will serve static files from a specified directory (in this case, the public directory):
+
 ```
 package main
 
@@ -34,14 +32,16 @@ func main() {
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
 ```
-Save shortcut ctrl + X and Y + enter
+
 4. Create a new directory called public that will contain your static files (e.g. HTML, CSS, JavaScript):
-```
-mkdir public
-```
+```mkdir public``` or File-> New Folder
+
 5. Create an index.html file in the public directory:
-```nano index.html```
+
+```index.html```
+
 Paste the codes
+
 ```
 <table style="background-color:#33475b">
 <tr>
@@ -61,7 +61,7 @@ Paste the codes
 7. Start the server by running the following command:
 
 ![go_port_icon.PNG](https://gitlab.bulutbilisimciler.com/bb-public/scenarios/-/raw/master/go/Assets/go_port_icon.PNG)
-Open navigate bar to connect 8080 port on node to see the "Bulut Bilisimciler" message displayed with a blue background color.
+Open navigate bar (on the left) to connect 8080 port on node to see the "Bulut Bilisimciler" message displayed with a blue background color.
 
 Test serving other static files by adding any file such as an image, javascript or css file to the public directory and try to access them on the browser.
 

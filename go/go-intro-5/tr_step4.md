@@ -5,7 +5,7 @@ Golang'da kod hata ayıklama, print ifadeleri, hata ayıklayıcılar ve profil a
 
 Golang'da fmt paketini hata ayıklama için nasıl kullanacağınızın örneğini görmek için aşağıdaki komutu çalıştırın:
 
-```nano error4.go```
+dosya ismi-> ```error4.go```
 
 ```
 package main
@@ -20,6 +20,7 @@ func myFunc() {
 	}
 }
 ```
+
 Şu çıktıyı almalısınız:
 
 i = 0 \

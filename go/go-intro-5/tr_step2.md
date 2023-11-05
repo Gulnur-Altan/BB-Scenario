@@ -3,8 +3,8 @@
 
 Go dilinde hatalar, bir metot olan Error() string ,error interface ile temsil edilir,hatayı gösteren bir string döndürür(return). Ayrıca, özel hata mesajları oluşturmanıza olanak tanıyan fmt.Errorf gibi birkaç yerleşik(built-in) hata türü de bulunmaktadır.
 
-Golang'da özel bir hata oluşturup görmek için, ilk olarak aşağıdaki komutu çalıştırın:
-```nano error2.go```
+Golang'da özel bir hata oluşturup görmek için,
+dosya ismi-> ```error2.go```
 
 ```
 package main

@@ -3,9 +3,9 @@
 
 In addition to debuggers, Go provides several built-in tools for debugging and profiling code, such as go test, which can be used to run tests and generate coverage reports, and go pprof, which can be used to profile CPU and memory usage.
 
-To see an example of how to use the go test command for debugging in Go, create a new file called main_test.go with the following code:
+To see an example of how to use the go test command for debugging in Go, create a new file called main_test.go:
 
-```main_test.go```
+named ->```main_test.go```
 
 ```
 package main

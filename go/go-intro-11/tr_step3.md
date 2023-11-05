@@ -3,10 +3,11 @@
 
 Go dilinde dosya işlemleriyle ilgili başka birçok fonksiyon da bulunmaktadır, bunlar arasında dosya adını değiştirme, dosya silme ve dosyanın var olup olmadığını kontrol etme gibi işlemler yer alır. 
 Son adımda bu işlemleri gerçekleştirelim.
-İlk olarak 1 text dosyasını oluşturun `vi eski.txt`, içine random yazı yazıp çıkın
-(yazı yazabilmek için i harfine basıp insert modu aktif edin)
+İlk olarak 1 text dosyasını oluşturun -> `oldText.txt`, 
+içine random yazı yazıp çıkın
 
-Go sayfasını olşturun `vi fileOperations.go`
+
+Go sayfasını olşturun -> `fileOperations.go`
 
 ```
 package main
@@ -18,7 +19,7 @@ import (
 
 func main() {
     // Dosya adını değiştirme
-    hata := os.Rename("eski.txt", "yeni.txt")
+    hata := os.Rename("oldText.txt", "newText.txt")
     if hata != nil {
         fmt.Println("Dosya adı değiştirilirken hata oluştu:", hata)
         return
@@ -27,9 +28,10 @@ func main() {
 ```
 `go run fileOperations.go`
 
-ls komutu ile yeni.txt oluşturulmuş mu kontrol edin,
+ls komutu ile newText.txt oluşturulmuş mu kontrol edin,
 
-Yeni go sayfasını olşturun `vi fileOperations2.go`
+Yeni go sayfasını olşturun -> `fileOperations2.go`
+
 Oluşturduğunuz yeni dosyayı sildirin,
 
 ```
@@ -43,14 +45,14 @@ import (
 func main() {
 
     // Dosya silme
-    hata = os.Remove("yeni.txt")
+    hata = os.Remove("newText.txt")
     if hata != nil {
         fmt.Println("Dosya silinirken hata oluştu:", hata)
         return
     }
 
     // Dosyanın var olup olmadığını kontrol etme
-    if _, hata := os.Stat("yeni.txt"); hata == nil {
+    if _, hata := os.Stat("newText.txt"); hata == nil {
         fmt.Println("Dosya mevcut.")
     } else {
         fmt.Println("Dosya mevcut değil.")
@@ -59,5 +61,5 @@ func main() {
 ```
 
 `go run fileOperations2.go`
-ls ile yeni.txt dosyasının artık olmadığını kontrol edin.
+ls ile newText.txt dosyasının artık olmadığını kontrol edin.
 

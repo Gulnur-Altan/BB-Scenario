@@ -7,12 +7,10 @@ Go, Golang olarak da bilinen güçlü ve verimli bir programlama dilidir ve kaps
 
 Go dilinde, dosyaları açmak ve içeriğini okumak için os paketi kullanılır. os.Open() fonksiyonu bir dosyayı açmak için kullanılır ve ardından içeriği bir Reader ile okuyabilirsiniz.
 
-İlk olarak bir text dosyası oluşturalım `vi ornek1.txt`
-İçine ` Bulut Bilisim 2023` yazalım (ipucu: Yazı yazabilmek için i harfine basıp insert modu aktif edin)
-kaydet ve çık (ipucu: ESC + :wq! + enter )
+İlk olarak bir text dosyası oluşturalım -> `ornek1.txt`
+İçine ` Bulut Bilisim 2023` yazalım 
 
-Bir metin editörü ile Go sayfası oluşturun. Adı file.go olabilir `vi file.go`
-Kodu editörde değiştirip dosyaismi kısmını ornek1 yapalım ve >> iconu ile file.go içine atalım.
+Go sayfası oluşturun. Adı -> `file.go`
 
 ```
 package main

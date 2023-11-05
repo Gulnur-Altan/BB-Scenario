@@ -2,6 +2,6 @@
     "command": [
         "sh",
         "-c",
-        "[ -d /home ] && exit 0"
+        "cat /root/workspace/go-webserver/main.go | grep '8080' > /dev/null 2>&1 || exit 1"
     ]
 }

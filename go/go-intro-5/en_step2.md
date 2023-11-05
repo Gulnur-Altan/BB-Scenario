@@ -3,8 +3,8 @@
 
 In Go, errors are represented by the error interface, which has a single method, Error() string, that returns a string describing the error. There are also several built-in error types in Go, such as fmt.Errorf, which allows you to create custom error messages.
 
-To see an example of how to create and return a custom error in Go, run the following command:
-```nano error2.go```
+To see an example of how to create and return a custom error in Go, make a new file,
+named -> ```error2.go```
 
 ```
 package main

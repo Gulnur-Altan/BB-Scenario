@@ -4,7 +4,7 @@ To write data to a file in Go, you can use the os.Create() function to create a 
 
 Here's an example of how to create and write to a new text file in Go:
 
-Type `vi create.go` to create new go file. Paste the code (by Ctrl + Shift + V )
+create new go file -> `create.go`
 
 ```
 package main

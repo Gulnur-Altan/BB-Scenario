@@ -6,4 +6,5 @@ Go programming language, also known as Golang, is an open source language develo
 ## Prepare for the Scenario
 
 In order to start the Go scenario, you need to set up your working environment. Therefore, you need to follow the commands provided and wait until the installation process is completed. 
+
 If you run `apk add go` and `apk add nano` you can continue.. <br />

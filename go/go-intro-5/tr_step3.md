@@ -5,7 +5,7 @@ Go'da hatalar genellikle if err != nil patterni kullanılarak ele alınır. Bu p
 
 Golang'de hataları ele almanın örneğini görmek için aşağıdaki komutu çalıştırın:
 
-```nano error3.go```
+dosya ismi-> ```error3.go```
 
 ```
 package main

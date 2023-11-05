@@ -24,8 +24,8 @@ return: Bu anahtar kelime, fonksiyondan bir değer döndürmek için kullanılı
 
 Toplama işlemini gerçekleştiren basit bir fonksiyon örneğiyle başlayalım:
 
-İlk olarak,  `nano toplama.go` komutunu kullanarak bir go dosyası oluşturun \
-Kodu editör ile yazabilir ya da kopyalayabilirsiniz.
+İlk olarak, `main.go` adında bir go dosyası oluşturun \
+Kodu yazabilir ya da kopyalayabilirsiniz.
 
 
 ```
@@ -46,7 +46,7 @@ func main() {
 }
 ```
 
-Daha sonra test etmek için `go run toplama.go` komutunu kullanın,
-test etmek istediğiniz diğer fonksiyonlar için aynısını yapınız.
+Daha sonra test etmek için `go run main.go` komutunu kullanın,
+test etmek istediğiniz diğer fonksiyonlar için aynı şekilde çalıştırınız.
 
 Yukarıdaki kodda, iki tamsayı a ve b parametreleri alan sayilariTopla adında bir fonksiyon tanımlıyoruz. Fonksiyon, a ve b değerlerinin toplamını tamsayı olarak döndürüyor. Kodu test edebilir ve devam edebilirsiniz.

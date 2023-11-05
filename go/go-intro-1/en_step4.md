@@ -3,12 +3,16 @@
 # Challenge Variables
 
 Write a code that prints your name, surname, age, and whether you are a student or not to the screen.
-name           -> string
-surname        -> string
-age            -> integer
-student or not -> boolean
+name           -> string <br />
+surname        -> string <br />
+age            -> integer <br />
+student or not -> boolean 
+
+Let's create a new page <br />
+named-> ```variables2.go```
 
 Example Code:
+
 ```
 package main
 import "fmt"
@@ -22,12 +26,11 @@ fmt.Println("Age:", age)
 }
 ```
 
-Let's create a new page.
-named-> ```variables2.go```
 
-Write the code,
-Run it
+Write the code,<br />
+Run it<br />
 ```
 go run variables2.go
 ```
+
 If the output is correct, you did it. Defining variables in Golang is this easy :)

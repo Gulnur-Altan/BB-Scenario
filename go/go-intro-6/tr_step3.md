@@ -5,6 +5,9 @@ Go'nun çöp toplayıcısı oldukça etkili olsa da, make() ve delete() işlevle
 
 Bir dilim için bellek tahsisi yapmak için make() işlevini kullanmanın bir örneğini şöyle gösterebiliriz:
 
+Bir önceki adımdaki dosyada değişiklik yapmadan farklı bir dosya oluşturup kodu çalıştırın.
+dosya ismi -> `exp2.go`
+
 ```
 package main
 

@@ -24,6 +24,8 @@ return: This keyword is used to return a value from the function. The return sta
 ### Code Example 1: A Simple Addition Function
 
 Let's start with a simple example that demonstrates a function to perform addition:
+File -> New File 
+named-> `main.go`
 
 ```
 package main
@@ -42,5 +44,7 @@ func main() {
 	fmt.Println("The sum is: ", sum)
 }
 ```
+
+to execute it `go run main.go` 
 
 In the above code, we define a function named addNumbers that takes two integers, a and b, as parameters. It returns the sum of a and b as an integer. you can test the code and continue..

@@ -10,12 +10,11 @@ dosya oluşturalım
  ```mkdir ./error``` \
 dizine gidelim
 ```cd ./error``` \
-nano editörü ekleyelim
- ```apk add nano```  \
 go dosyası oluşturalım
- ```nano error.go``` 
+dosya ismi->  ```error.go``` 
 
 Go 'da hataların nasıl döndürüldüğünü görmek için, aşağıdaki komutu yapıştırın:
+
 ```
 package main
 import "fmt"
@@ -24,7 +23,7 @@ func main() {
 	fmt.Println(1 / 0)
 }
 ```
-Ctrl + x ile kayıt et,ardından Y ,enter
+
 error dosyasını çalıştıralım ```go run error.go``` ,
 
 Şu çıktıyı almalısınız:

@@ -3,6 +3,8 @@
 
 Go functions can return multiple values, which is a handy feature. Here's an example of a function that calculates the quotient and remainder of two numbers:
 
+In this scenario step you can paste the code into the same main file
+
 ```
 package main
 
